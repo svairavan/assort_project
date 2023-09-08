@@ -6,7 +6,7 @@ This is the code for the healthcare admin checkin
 1.  Main issue is using chatgpt we are limited on how many requests we can do per minute so I had to put in a 10 second sleep time between requests.  So there are long pauses before the ai can respond and ask more questions.
 2. Sometimes the ai will cut off a response in the middle of talking.
 3. Pauses do not help much.  Need to figure out how to aggregate the response and then parse it
-4. The verification and parsing can be a bit better
+4. The verification and parsing can be a bit better.  The parsing with chatgpt is not always consitent.  Writing better queries would probably help.
 5. Though it is mostly consistent sometimes it interprets the wrong response and need to handle that
 i.e if you say Allen it might hear ellen, helen, alan for a name.
 6. This is related to issue #3.  Sometimes when saying something we take a pause and the ai immediately thinks we are done talking and cuts off the response.  Again need to figure out how to aggregate.
